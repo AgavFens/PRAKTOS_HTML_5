@@ -1,0 +1,135 @@
+.body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center; 
+    width: 800px;
+}
+
+.imgMENU {
+    display: inline-block;
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.spanMENU {
+    color: orange;
+    display: inline-block;
+    align-items: center; 
+    margin-right: 300px;
+}
+
+.pMENU{
+    color: azure;
+    align-items: center; 
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.imgLupa{
+    align-items: center; 
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mainBody {
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.spanBody{
+    color: orange;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h2Body{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.preBody{
+    color: gray;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.preBody1{
+    color: gray;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.buttonBody{
+    background-color: orange;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.imgBody{
+    margin: 0;
+    float: right;
+    width: 690px;
+    height: 780px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.span3{
+    margin-left: 690px;
+    z-index: 999;
+    color: snow;
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    flex: 1;
+}
+  
+.image {
+    flex: 1;
+}
+
+.footer1{
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
+.span2{
+    margin-left: 1055px;
+    font-size: 30px;
+    z-index: 999;
+    width: 200px;
+    position: fixed;
+    color: white;
+    background-color: rgb(255, 191, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
